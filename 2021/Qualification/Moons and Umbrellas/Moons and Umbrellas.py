@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import sys
 
 def moons_umbrellas(CJ_price, JC_price, word):
@@ -40,4 +34,3 @@ while i < len(content):
     word = content[i][2]
     print("Case #"+str(cases)+": "+str(moons_umbrellas(CJ_price, JC_price, word)))
     i += 1
-
