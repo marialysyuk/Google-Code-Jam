@@ -6,10 +6,12 @@ Reversort is an algorithm to sort a list of distinct integers in increasing orde
 
 The pseudocode of the algorithm is the following:
 
+<pre>
 Reversort(L): <br/>
-$__$ for i := 1 to length(L) - 1 <br/>
+  for i := 1 to length(L) - 1 <br/>
     j := position with the minimum value in L between i and length(L), inclusive<br/>
-    Reverse(L[i..j])<br/>
+         Reverse(L[i..j])<br/>
+</pre>
     
 After i−1 iterations, the positions 1,2,…,i−1 of the list contain the i−1 smallest elements of L, in increasing order. During the i-th iteration, the process reverses the sublist going from the i-th position to the current position of the i-th minimum element. That makes the i-th minimum element end up in the i-th position.
 
