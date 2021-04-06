@@ -7,7 +7,7 @@ Reversort is an algorithm to sort a list of distinct integers in increasing orde
 The pseudocode of the algorithm is the following:
 
 Reversort(L): <br/>
-  $~~~~~~~~~~~$  for i := 1 to length(L) - 1 <br/>
+__for i := 1 to length(L) - 1 <br/>
     j := position with the minimum value in L between i and length(L), inclusive<br/>
     Reverse(L[i..j])<br/>
     
