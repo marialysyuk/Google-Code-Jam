@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import sys
 
 def reversort(arr):
@@ -33,4 +27,3 @@ while i < len(content):
     arr = content[i+1]
     print("Case #"+str(cases)+": "+str(reversort(arr)))
     i += 2
-
