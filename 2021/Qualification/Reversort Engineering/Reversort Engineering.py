@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import sys
 
 def reversort(amount, target):
@@ -65,4 +59,3 @@ while i < len(content):
     ans = reversort_engineering(amount, minimum, maximum, target)
     print("Case #"+str(cases)+": "+str(ans))
     i += 1
-
