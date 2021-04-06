@@ -30,3 +30,19 @@ Given the initial list, compute the cost of executing Reversort on it.
 **Input**
 
 The first line of the input gives the number of test cases, T. T test cases follow. Each test case consists of 2 lines. The first line contains a single integer N, representing the number of elements in the input list. The second line contains N distinct integers L<sub>1</sub>, L<sub>2</sub>, ..., L<sub>N</sub>, representing the elements of the input list L, in order.
+
+**Output**
+
+For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is the total cost of executing Reversort on the list given as input.
+
+**Limits**
+
+Time limit: 10 seconds.<br/>
+Memory limit: 1 GB.
+
+Test Set 1 (Visible Verdict)<br/>
+1≤T≤100.<br/>
+2≤N≤100.<br/>
+1≤L<sub>i</sub>≤N, for all i. <br/>
+L<sub>i</sub>≠L<sub>j</sub>, for all i≠j.
+
