@@ -1,8 +1,9 @@
 Here are presented solutions to some problems of Qualification Round of [Code Jam Competition 2021](https://codingcompetitions.withgoogle.com/kickstart/archive/2020)
 
-Solutions presented
+Submissions' Results
 
-|                  | Problem 1 | Problem 2 | Problem 3| Problem 4| Problem 5| 
-| ---------------- | ----------- | ---------- | ------ |---------|----------|
-| Qualification    |     ✔    |    ✔   |   ✔   |  |    | |   
-
+|                  | Test Set 1  | Test Set 2 | Test Set 3 |
+| ---------------- | ----------- | ---------- | ---------- |
+| Reversort       |     ✔    |       |          
+| Moons and Umbrellas   |     ✔      |    ✔     |     ✘|    
+| Reversort Engineering|     ✔      |    ✔    |   
