@@ -46,3 +46,27 @@ Test Set 1 (Visible Verdict)<br/>
 1≤L<sub>i</sub>≤N, for all i. <br/>
 L<sub>i</sub>≠L<sub>j</sub>, for all i≠j.
 
+
+**Sample**
+
+*Input*
+ 
+3<br/>
+4<br/>
+4 2 1 3<br/>
+2<br/>
+1 2<br/>
+7<br/>
+7 6 5 4 3 2 1
+
+*Output*
+
+Case #1: 6<br/>
+Case #2: 1<br/>
+Case #3: 12
+
+Sample Case #1 is described in the statement above.
+
+In Sample Case #2, there is a single iteration, in which Reverse is applied to a sublist of size 1. Therefore, the total cost is 1.
+
+In Sample Case #3, the first iteration reverses the full list, for a cost of 7. After that, the list is already sorted, but there are 5 more iterations, each of which contributes a cost of 1.
