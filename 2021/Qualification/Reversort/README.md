@@ -10,7 +10,7 @@ The pseudocode of the algorithm is the following:
 Reversort(L): <br/>
   for i := 1 to length(L) - 1 <br/>
     j := position with the minimum value in L between i and length(L), inclusive<br/>
-         Reverse(L[i..j])<br/>
+    Reverse(L[i..j])<br/>
 </pre>
     
 After i−1 iterations, the positions 1,2,…,i−1 of the list contain the i−1 smallest elements of L, in increasing order. During the i-th iteration, the process reverses the sublist going from the i-th position to the current position of the i-th minimum element. That makes the i-th minimum element end up in the i-th position.
@@ -26,3 +26,7 @@ The most expensive part of executing the algorithm on our architecture is the Re
 In the example above, the iterations cost 3, 1, and 2, in that order, for a total of 6.
 
 Given the initial list, compute the cost of executing Reversort on it.
+
+**Input**
+
+The first line of the input gives the number of test cases, T. T test cases follow. Each test case consists of 2 lines. The first line contains a single integer N, representing the number of elements in the input list. The second line contains N distinct integers L<sub>1</sub>, L<sub>2</sub>, ..., L<sub>N</sub>, representing the elements of the input list L, in order.
