@@ -7,7 +7,7 @@ Reversort is an algorithm to sort a list of distinct integers in increasing orde
 The pseudocode of the algorithm is the following:
 
 Reversort(L): <br/>
-  for i := 1 to length(L) - 1 <br/>
+  <br/> for i := 1 to length(L) - 1 <br/>
     j := position with the minimum value in L between i and length(L), inclusive<br/>
     Reverse(L[i..j])<br/>
     
@@ -15,9 +15,9 @@ After i−1 iterations, the positions 1,2,…,i−1 of the list contain the i−
 
 For example, for a list with 4 elements, the algorithm would perform 3 iterations. Here is how it would process L=[4,2,1,3]:
 
-i=1, j=3⟶L=[1,2,4,3]<br/>
-i=2, j=2⟶L=[1,2,4,3]<br/>
-i=3, j=4⟶L=[1,2,3,4]<br/>
+1. i=1, j=3⟶L=[1,2,4,3]<br/>
+2. i=2, j=2⟶L=[1,2,4,3]<br/>
+3. i=3, j=4⟶L=[1,2,3,4]<br/>
 
 The most expensive part of executing the algorithm on our architecture is the Reverse operation. Therefore, our measure for the cost of each iteration is simply the length of the sublist passed to Reverse, that is, the value j−i+1. The cost of the whole algorithm is the sum of the costs of each iteration.
 
