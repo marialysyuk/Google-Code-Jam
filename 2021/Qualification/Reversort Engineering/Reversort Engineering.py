@@ -4,12 +4,12 @@ def reversort(amount, target):
     arr = [1]*(amount-1)
     remaining = target -(amount-1)
     i = 0
-    while remaining >0:
+    while remaining > 0:
         if amount-1-i < remaining:
             arr[i] += amount-1-i
             remaining -= amount-1-i
         else:
-            arr[i]+= remaining
+            arr[i] += remaining
             remaining -= remaining
         i +=1
     for i in range(amount-1):
