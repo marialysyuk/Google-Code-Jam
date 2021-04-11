@@ -1,6 +1,6 @@
 There are two helpful observations:
 
-1) "IMPOSSIBLE" case can be retrieved from minimum and maximum amount of possible shifts. Because of the algorithm's structure the minimum amount of shifts is N-1
+1) "IMPOSSIBLE" case can be retrieved from the minimum and maximum amount of possible shifts. Because of the algorithm's structure the minimum amount of shifts is N-1
 (this is the case when numbers are already sorted) and the maximum amount is N(N+1)/2-1 (this is the case when at each iteration the corresponding number is 
 situated at the end of the sequence).
 
